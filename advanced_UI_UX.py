@@ -132,6 +132,8 @@ class MainLayout(FloatLayout):
     video_map = {
         "happy": "videos/Plant_Swaying_Video_Generation.mp4",
         "thirsty": "videos/Thirsty_Plant_Video_Generation.mp4",
+        # I commented the lines 137 and 138 because i didn't have the videos for it
+        # Also use the correct path for the videos when executing
         #"sad": "videos/sad_placeholder.mp4", # You will need a generic sad video
         #"overwatered": "videos/overwatered_placeholder.mp4", # You need an overwatered video
         "low_light": "videos/Plant_Scared_of_the_Dark_Video.mp4",
