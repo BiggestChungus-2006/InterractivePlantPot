@@ -156,6 +156,8 @@ def agent_llm(sensor_data, emergency_context=None):
         Readings: Soil={soil}%, Light={light}%, Temp={temp}°C.
         Return your response as a single, valid JSON object with "mood" and "speech" keys.
         """
+        #Lines 160 to 170 are essential. So you need them to run the UI_UX code with AI integration
+        #While trying for proper execution comment the line 171 and uncomment lines 160 to 170
     # try:
     #     response = ollama.chat(model=OLLAMA_MODEL, messages=[{'role': 'user', 'content': prompt}])
     #     text = response['message']['content']
