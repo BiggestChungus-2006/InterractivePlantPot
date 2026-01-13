@@ -1,3 +1,4 @@
+# Project Update (Jan 2026): Refactoring sensor logic for ESP32 power optimization with certain changes in the code 
 import ollama
 import pyttsx3
 import json
