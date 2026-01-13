@@ -1,3 +1,4 @@
+# Project Update (Jan 2026): Refactoring sensor logic for ESP32 power optimization.
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.floatlayout import FloatLayout
